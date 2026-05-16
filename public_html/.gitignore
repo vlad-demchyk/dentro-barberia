@@ -1,4 +1,36 @@
-# Ignore uploads and sensitive files
-/uploads/*
-config.php
-*.log
+# === 1. Залежності (Dependencies) ===
+# Ніколи не пушимо гігабайти завантажених бібліотек. Вони підтягнуться через npm install / composer install
+node_modules/
+/vendor/
+
+# === 2. Секретні файли та налаштування (Environment variables) ===
+# Тут зберігаються паролі від баз даних, API-ключі тощо. Їх не можна "зливати" на GitHub!
+.env
+.env.local
+.env.*.local
+
+# === 3. Логи та тимчасові файли (Logs and caches) ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.node_repl_history
+
+# === 4. Специфічні папки Laravel / PHP ===
+/bootstrap/cache/
+/storage/*.key
+/storage/framework/
+/storage/logs/
+
+# === 5. Специфічні папки Angular, Vue, React (Збірки) ===
+# Папки, куди компілюється готовий сайт (дистрибутив)
+/dist/
+/.angular/
+/.cache/
+
+# === 6. Налаштування редакторів та операційних систем ===
+# Ваші особисті налаштування VS Code чи системи Android/Termux
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
