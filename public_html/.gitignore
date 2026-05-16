@@ -1,0 +1,4 @@
+# Ignore uploads and sensitive files
+/uploads/*
+config.php
+*.log

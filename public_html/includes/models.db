@@ -1,0 +1,7 @@
+<?php
+// Classes (Barber class, Appointment class)
+// TODO: Define classes
+class Barber {
+    // Properties and methods
+}
+?>

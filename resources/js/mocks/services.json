@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "barber_id": 1,
+    "name": "Класична чоловіча стрижка",
+    "base_price": 250.00,
+    "category": "стрижка",
+    "duration_min": 30
+  },
+  {
+    "id": 2,
+    "barber_id": 1,
+    "name": "Борода + контур",
+    "base_price": 160.00,
+    "category": "борода",
+    "duration_min": 25
+  },
+  {
+    "id": 3,
+    "barber_id": 1,
+    "name": "Стильний комплекс",
+    "base_price": 370.00,
+    "category": "комплекс",
+    "duration_min": 50
+  },
+  {
+    "id": 4,
+    "barber_id": 2,
+    "name": "Авангардна стрижка",
+    "base_price": 270.00,
+    "category": "стрижка",
+    "duration_min": 35
+  },
+  {
+    "id": 5,
+    "barber_id": 2,
+    "name": "Простий тримінг",
+    "base_price": 140.00,
+    "category": "борода",
+    "duration_min": 20
+  },
+  {
+    "id": 6,
+    "barber_id": 2,
+    "name": "Колор-тюнінг",
+    "base_price": 420.00,
+    "category": "колористика",
+    "duration_min": 70
+  },
+  {
+    "id": 7,
+    "barber_id": 3,
+    "name": "Преміум стрижка",
+    "base_price": 300.00,
+    "category": "стрижка",
+    "duration_min": 40
+  },
+  {
+    "id": 8,
+    "barber_id": 3,
+    "name": "Борода + стиль",
+    "base_price": 180.00,
+    "category": "борода",
+    "duration_min": 25
+  },
+  {
+    "id": 9,
+    "barber_id": 3,
+    "name": "Комплекс Deluxe",
+    "base_price": 420.00,
+    "category": "комплекс",
+    "duration_min": 55
+  }
+]
